@@ -108,7 +108,7 @@ x = r * cos(theta);
 y = r * sin(theta);
 
 printf("Cartesian coordinates is: (%0.3f, %0.3f)", x, y);
-getch();
+//getch();
 return(0);
      }
      else
@@ -131,7 +131,7 @@ theta = atan(y/x);
 theta = 180.0 * theta/ M_PI;
 
 printf("Polar coordinate is: r = %0.2f and theta = %0.2f in degree", r, theta);
-getch(); /* Holds Screen */
+//getch(); /* Holds Screen */
 
 return(0);
      }
