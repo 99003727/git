@@ -3,8 +3,6 @@
 #include<stdlib.h>
 #include <calculator_operations.h>
 #include <conversion.h>
-/*#include<inbuild_functions.h>
-#include <operations.h>*/
 int main()
 {
 int highlevel;
