@@ -3,8 +3,8 @@
 #include<stdlib.h>
 #include <calculator_operations.h>
 #include <conversion.h>
-#include<inbuild_functions.h>
-#include <operations.h>
+/*#include<inbuild_functions.h>
+#include <operations.h>*/
 int main()
 {
 int highlevel;
@@ -119,100 +119,9 @@ case 2:
 
 
     
-case 3:
-    {
-    double square,cube,cube_root,square_root;int factorial;
-    printf("Select the operation\n");
-    printf("1>Square\n2>Cube\n3>Square_root\n4>Cube_root\n5>Factorial\n");
-    int select_function;
-    scanf("%d",&select_function);
-    if(select_function==1)
-    {
-        double sq;
-        printf("Enter a number: ");
-        scanf("%lf",&sq);
-        {
-            
-            
-            printf("Square of the number is %lf",sq* sq);
-            return 0;
-            
-        }
-        
-    }
-    else if(select_function==2)
-    {
-        double cu;
-        printf("Enter a number: ");
-        scanf("%lf",&cu);
-        {
-             printf("Cube of the number is %lf",cu* cu * cu);
-            return 0;
-            
-        }
-    }
-                
-         else if(select_function==3)
-         {
-            double sq_rt;
-            printf("Enter a number: ");
-            scanf("%lf",&sq_rt);
-            {
-                sqrt(sq_rt);
-                 printf("Square root of the number is %lf", sqrt(sq_rt));
-                printf("%lf",square_root);
-                return 0;
-                
-            }
-         }
-         else if(select_function==4)
-         {
-            double cu_rt;
-            printf("Enter a number: ");
-            scanf("%lf",&cu_rt);
-            {
-                 printf("Cube root of the number is ",cbrt(cu_rt));
-                printf("%lf",cube_root);
-                return 0;
-                
-            }
-         }
-         else if(select_function==5)
-         {
-             int fact, iteration;
-             
-             int n;
-             printf("Enter an integer: ");
-             scanf("%d", &n);
-             // shows error if the user enters a negative integer
-             if (n < 0)
-             printf("Error! Factorial of a negative number doesn't exist.");
-             else 
-             {
-                 {
-                 int iteration, fact=1;
-                  for(iteration=1; iteration<=n; iteration++)
-  {
-    	fact=fact*iteration;
-        }
-                printf("Factorial of %d = %llu",fact);
-             }
-             return 0;
-         }
-
-
-    }  
 
 
 
-    case 4:
-        {
-      int func;
-     scanf("%d",&func);
-     inbuild_functions(func);
-           }
-        default: printf("invalid");
 
-}
 }
 }
