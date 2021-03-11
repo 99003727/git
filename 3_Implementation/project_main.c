@@ -119,7 +119,7 @@ case 2:
 
 
     
-/*case 3:
+case 3:
     {
     double square,cube,cube_root,square_root;int factorial;
     printf("Select the operation\n");
@@ -211,8 +211,8 @@ case 2:
      scanf("%d",&func);
      inbuild_functions(func);
            }
-        default: printf("invalid");*/
+        default: printf("invalid");
 
 }
 }
-}}
+}
